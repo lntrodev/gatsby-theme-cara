@@ -30,7 +30,7 @@ const About = ({ offset }: { offset: number }) => (
       <SVG icon="hexa" width={8} stroke color="icon_darkest" left="80%" top="70%" />
     </Divider>
     <Content speed={0.4} offset={offset} height='55rem !important'>
-      <Inner>
+      <Inner sx={{ marginTop: ['25em', '80em', '0'] }}>
         <AboutMDX />
       </Inner>
     </Content>

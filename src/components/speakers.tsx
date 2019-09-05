@@ -24,6 +24,7 @@ const Projects = ({ offset }: { offset: number }) => (
             gridGap: [4, 4, 4, 5],
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
             h2: { gridColumn: `-1/1`, color: `white !important` },
+            marginTop: ['10em', '30em']
           }}
         >
           <SpeakersMDX />
