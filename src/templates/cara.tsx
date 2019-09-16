@@ -7,20 +7,23 @@ import Hero from "../components/hero"
 import Speakers from "../components/speakers"
 import About from "../components/about"
 import Contact from "../components/contact"
+import Schedule from "../components/schedule"
 
 const Cara = () => (
   <Layout>
-    <Parallax sx={{ display: ['block', 'block', 'none'] }} pages={6}>
+    <Parallax sx={{ display: ['block', 'block', 'none'] }} pages={8}>
       <Hero offset={0} />
       <Speakers offset={1} />
-      <About offset={3} />
-      <Contact offset={5} />
+      <Schedule offset={4} />
+      <About offset={5} />
+      <Contact offset={7} />
     </Parallax>
-    <Parallax sx={{ display: ['none', 'none', 'block'] }} pages={5}>
+    <Parallax sx={{ display: ['none', 'none', 'block'] }} pages={7}>
       <Hero offset={0} />
       <Speakers offset={1} />
-      <About offset={3} />
-      <Contact offset={4} />
+      <Schedule offset={3.5} />
+      <About offset={5} />
+      <Contact offset={6} />
     </Parallax>
   </Layout>
 )
